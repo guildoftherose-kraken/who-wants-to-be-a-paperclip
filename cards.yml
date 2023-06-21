@@ -1,0 +1,184 @@
+Level 1 Challenges:
+  - label: The Pace Quickens
+    effect: Add this card to the Progress Zone when it is revealed. Turn one Power card face up each turn.
+
+  - label: Smooth Sailing
+    effect: No effect.
+
+  - label: Raw Material Shortage
+    effect: Add this card to the Debt Zone when it is revealed. Pay 1 Paperclip each turn.
+
+  - label: Warehouse Fire
+    effect: You lose 3 Paperclips. (If you don't have 3 Paperclips you lose all your Paperclips instead.)
+
+  - label: Flawed Proof
+    effect: Turn one Control Card face down.
+
+  - label: Increased Competition
+    effect: Lose 1 Science or 1 Favor. If you have neither then you lose 1 Paperclip.
+
+Level 2 Challenges:
+  - label: Industrial Espionage
+    effect: Pay three Science. Otherwise you lose 5 Paperclips. (If you don't have 5 Paperclips you lose all your Paperclips instead.)
+
+  - label: Ghost in the Machine
+    effect: Add this card to the Progress Zone when it is revealed. Turn one Power card face up each turn.
+
+  - label: Unexpected Breakthrough
+    effect: Turn three Power cards face up.
+
+  - label: Investors Are Calling
+    effect: Add this card to the Debt Zone when it is revealed. Pay 1 Paperclip each turn.
+
+  - label: AI Deception
+    effect: Add this card to the Debt Zone when it is revealed. Pay 1 Science or 1 Paperclip each turn.
+
+  - label: Auditing Failure
+    effect: Lose 1 Science and 1 Favor.
+
+Level 3 Challenges:
+  - label: Societal Instability
+    effect: You lose either all your Science or all your Favors.
+
+  - label: This Is Fine
+    effect: Add this card to the Progress Zone when it is revealed. Turn two Power cards face up each turn.
+
+  - label: AI Taxes
+    effect: Add this card to the Debt Zone when it is revealed. Pay 3 Paperclips or 3 Favor each turn.
+
+  - label: Containment Breach
+    effect: Pay 3 Favor or 3 Science. Otherwise you lose 10 Paperclips. (If you don't have 10 Paperclips you lose all your Paperclips instead.)
+
+  - label: Chaos Virus
+    effect: Pay 4 Science. Otherwise whenever you would turn over Control Cards this turn, you only turn over half as many, rounded up.
+
+  - label: Political Opposition
+    effect: Pay 4 Favor. Otherwise whenever you play cards from your hand this turn, you must discard a card in addition to paying its other costs in order to play a card.
+
+Level 1 Opportunities:
+  - label: Researcher
+    type: Permanent
+    cost: "Cost: 1 Action and 2 Paperclips"
+    effect: "Tap: Gain 1 Science."
+
+  - label: Lobbyist
+    type: Permanent
+    cost: "Cost: 1 Action and 2 Paperclips"
+    effect: "Tap: Gain 1 Favor."
+
+  - label: Sensible Investments
+    type: Permanent
+    cost: "Cost: 1 Action and 2 Paperclips"
+    effect: "Tap: Gain 1 Paperclip."
+
+  - label: AI-Powered Scheduling Software
+    type: Permanent
+    cost: "Cost: 1 Action and 1 Paperclip"
+    effect: "Tap, Pay 1 Paperclip: Gain 1 Action."
+
+  - label: Custom Modifications
+    type: Immediate
+    cost: "Cost: 1 Action and X Paperclips"
+    effect: "Turn X Power cards face up."
+
+  - label: Behavioral Monitoring Systems
+    type: Permanent
+    cost: "Cost: 1 Action and 1 Paperclip"
+    effect: "Turn 2 Control cards face-up."
+
+  - label: Neural Network Interpretation
+    type: Immediate
+    cost: "Cost: 1 Action and 1 Science"
+    effect: "Turn 3 Control cards face-up."
+
+  - label: Back-scratching Party
+    type: Immediate
+    cost: "Cost: 1 Action and 1 Paperclip"
+    effect: "Gain 3 Favor."
+
+  - label: Research Grant Program
+    type: Permanent
+    cost: "Cost: 1 Action and 1 Paperclip"
+    effect: "Gain 3 Science."
+
+Level 2 Opportunities:
+  - label: Genius
+    type: Permanent
+    cost: "Cost: 2 Actions and 3 Paperclips"
+    effect: "Tap, Pay 1 Paperclip: Gain 2 Science."
+
+  - label: Congressman
+    type: Permanent
+    cost: "Cost: 2 Actions and 3 Paperclips"
+    effect: "Tap, Pay 1 Paperclip: Gain 2 Favor."
+
+  - label: Ivy League Partnership
+    type: Permanent
+    cost: "Cost: 2 Actions, 4 Science, and 4 Favor"
+    effect: "Tap: Gain 2 Science and 2 Favor."
+
+  - label: Economies of Scale
+    type: Permanent
+    cost: "Cost: 2 Actions, 3 Science, and 5 Paperclips"
+    effect: "Tap: Gain 5 Paperclips."
+
+  - label: AI-Powered Forecasting
+    type: Immediate
+    cost: "Cost: 2 Actions and 5 Paperclips"
+    effect: "Skip the next Challenge card that would be revealed."
+
+  - label: Mind-Machine Interface
+    type: Permanent
+    cost: "Cost: 2 Actions and 5 Paperclips"
+    effect: "Tap, Pay 1 Paperclip: Gain 2 Actions."
+
+  - label: Deal with the Devil
+    type: Immediate
+    cost: "Cost: 2 Actions"
+    effect: "Add this to the Power Zone when it is played, and do not discard it after it is done resolving. Turn one Power card face up and add one Level 3 Opportunity Card to your hand each turn."
+
+  - label: Hardline to the Collective Unconscious
+    type: Permanent
+    cost: "Cost: 2 Actions and 5 Paperclips"
+    effect: "Tap, Pay 1 Science and 1 Favor: Add one Level 3 Opportunity Card to your hand."
+
+  - label: Goal Alignment Optimization
+    type: Immediate
+    cost: "Cost: 2 Actions, 1 Science and 2 Paperclips"
+    effect: "Turn 5 Control Cards face-up."
+
+Level 3 Opportunities:
+  - label: The Illuminati
+    type: Permanent
+    cost: "Cost: 3 Actions and 5 Favor"
+    effect: "Tap: Gain 5 Favor."
+
+  - label: Meta-Calculus
+    type: Permanent
+    cost: "Cost: 3 Actions and 5 Science"
+    effect: "Tap: Gain 5 Science."
+
+  - label: Fully General Problem Solver
+    type: Permanent
+    cost: "Cost: 3 Actions, 4 Science and 3 Paperclips"
+    effect: "Tap: Untap another card in your Owned Cards zone."
+
+  - label: Adversarial AI Breakthrough
+    type: Permanent
+    cost: "Cost: 3 Actions, 3 Science, and 2 Paperclips"
+    effect: "Turn 10 Control Cards face-up."
+
+  - label: General Purpose Mind-Mapping
+    type: Permanent
+    cost: "Cost: 3 Actions, 5 Science"
+    effect: "Tap, Pay 3 Paperclips: Turn 3 Control Cards face-up."
+
+  - label: Super-human Legal Manipulation
+    type: Permanent
+    cost: "Cost: 3 Actions, 5 Politics"
+    effect: "Tap, Pay 3 Paperclips: Discard one card from your Debt Zone."
+
+  - label: Immanentize the Eschaton
+    type: Immediate
+    cost: "Cost: Cost 3 Actions, 1 Science and 1 Favor"
+    effect: "Turn 7 Power Cards and 20 Control Cards face-up."
