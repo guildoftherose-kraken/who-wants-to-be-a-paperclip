@@ -11,8 +11,8 @@ Level 1 Challenges:
   - label: Economic Downturn
     effect: When you play a card from your hand this turn, you must pay 1 Paperclip in addition to paying the card's cost. (You can't play it if you can't pay this extra cost)
 
-  - label: Increased Inflation
-    effect: Whenever you gain Paperclips this turn, you gain that many minus 1.
+  - label: Increased Competition
+    effect: Lose either 1 Science or 1 Favor. If you have neither then you lose 2 Paperclips.
 
   - label: Troubles Looming
     effect: Reveal and resolve one additional Challenge card next turn.
@@ -68,7 +68,7 @@ Level 3 Challenges:
     effect: Pay 3 Favor and 3 Science. If you can't, you lose 12 Paperclips. (If you don't have 12 Paperclips you lose all your Paperclips instead.)
 
   - label: Chaos Virus
-    effect: You may pay 6 Science. If you do not, whenever you would turn over Control Cards this turn, you only turn over half as many, rounded up.
+    effect: You may pay 6 Science. If you do not, at the end of the turn you must turn X Control Cards face down, where X is half of the number of Control Cards that were turned face up this turn, rounded down.
 
   - label: Political Opposition
     effect: You may pay 6 Favor. If you do not, when you play a card from your hand this turn, you must discard a card in addition to paying the card's cost. (You can't play it if you can't pay this extra cost)
@@ -164,14 +164,14 @@ Level 1 Opportunities:
   - label: Public Speaking Tour
     type: Immediate
     cost: "Cost: 1 Action"
-    effect: "Gain 3 Paperclips."
+    effect: "Gain 5 Paperclips."
 
   - label: Military Industrial Complex
     type: Permanent
     cost: "Cost: 1 Action and 1 Paperclip"
     effect: "Tap, Pay 1 Favor: Gain 1 Science. -OR- Tap, Pay 1 Science: Gain 1 Favor."
 
-  - label: Technological Expertise
+  - label: Innovative Spirit
     type: Immediate
     cost: "Cost: 1 Action"
     effect: "Add one Level 2 Opportunity Card to your hand."
@@ -179,7 +179,7 @@ Level 1 Opportunities:
   - label: The Right Friends in the Right Places
     type: Permanent
     cost: "Cost: 1 Action, 2 Paperclips, and 1 Favor"
-    effect: "Tap, Pay 1 Paperclip: Add one Level 1 Opportunity card to your hand."
+    effect: "Tap: Add one Level 1 Opportunity card to your hand."
 
   - label: Backdoor to the Laboratory
     type: Permanent
@@ -205,17 +205,17 @@ Level 2 Opportunities:
   - label: Ivy League Partnership
     type: Permanent
     cost: "Cost: 2 Actions, 4 Science, and 4 Favor"
-    effect: "Tap: Gain 2 Science and 2 Favor."
+    effect: "Tap, Pay 1 Paperclip: Gain 2 Science and 2 Favor."
 
   - label: Economies of Scale
     type: Permanent
-    cost: "Cost: 2 Actions, 2 Science, and 5 Paperclips"
+    cost: "Cost: 2 Actions, 2 Science, 1 Favor, and 6 Paperclips"
     effect: "Tap: Gain 4 Paperclips."
 
-  - label: Perfected Financial Optimization Systems
+  - label: Perfected Capital Flow Management
     type: Permanent
-    cost: "Cost: 2 Actions, 1 Science, 1 Favor, and 4 Paperclips"
-    effect: "Tap: Gain 3 Paperclips."
+    cost: "Cost: 2 Actions, 1 Science, and 4 Paperclips"
+    effect: "Tap: Gain 2 Paperclips."
 
   - label: AI-Powered Forecasting
     type: Immediate
@@ -230,7 +230,7 @@ Level 2 Opportunities:
   - label: Mind-Machine Interface
     type: Permanent
     cost: "Cost: 2 Actions and 5 Paperclips, 2 Science, and 1 Favor"
-    effect: "Tap, Pay 2 Paperclips: Gain 2 Actions."
+    effect: "Tap: Gain 1 Action."
 
   - label: Automated Workforce
     type: Permanent
@@ -249,7 +249,12 @@ Level 2 Opportunities:
 
   - label: Goal Alignment Optimization
     type: Immediate
-    cost: "Cost: 2 Actions, 1 Science and 2 Paperclips"
+    cost: "Cost: 2 Actions, 1 Science, and 2 Paperclips"
+    effect: "Turn 6 Control Cards face-up."
+
+  - label: AI Safety Regulation
+    type: Immediate
+    cost: "Cost: 2 Actions, 1 Favor, and 2 Paperclips"
     effect: "Turn 6 Control Cards face-up."
 
   - label: Brilliant Insight
@@ -272,9 +277,9 @@ Level 2 Opportunities:
     cost: "Cost: 2 Actions, 2 Science and 5 Paperclips"
     effect: "Tap: Untap another card in your Owned Cards zone other than \"Executive Office\"."
 
-  - label: AI Safety Regulation
+  - label: Meta-stable Alignment
     type: Permanent
-    cost: "Cost: 2 Actions, 2 Favor, and 4 Paperclips"
+    cost: "Cost: 2 Actions, 1 Science, 1 Favor, and 4 Paperclips"
     effect: "Tap: Turn 1 Control Card face up."
 
 Level 3 Opportunities:
@@ -288,10 +293,10 @@ Level 3 Opportunities:
     cost: "Cost: 3 Actions, 5 Science and 3 Paperclips"
     effect: "Tap: Gain 4 Science."
 
-  - label: Meta-stable Alignment
+  - label: Stable AI Governance
     type: Permanent
-    cost: "Cost: 3 Actions, 3 Science, 1 Favor, and 4 Paperclips"
-    effect: "Tap: Turn 3 Control Cards face-up."
+    cost: "Cost: 3 Actions and 5 Favor"
+    effect: "Tap, Pay 2 Paperclips: Turn 3 Control Cards face-up."
 
   - label: Adversarial AI Breakthrough
     type: Immediate
@@ -300,8 +305,8 @@ Level 3 Opportunities:
 
   - label: General Purpose Mind-Mapping
     type: Permanent
-    cost: "Cost: 3 Actions, 5 Science"
-    effect: "Tap, Pay 3 Paperclips: Turn 3 Control Cards face-up."
+    cost: "Cost: 3 Actions and 5 Science"
+    effect: "Tap, Pay 2 Paperclips: Turn 3 Control Cards face-up."
 
   - label: Super-human Legal Manipulation
     type: Immediate
@@ -321,7 +326,7 @@ Level 3 Opportunities:
   - label: Self-reinforcing Meta-ethics
     type: Permanent
     cost: "Cost: 3 Actions, 2 Science, and 5 Paperclips"
-    effect: "Whenever you would turn Control Cards face up, turn up that many plus 2."
+    effect: "Whenever you would turn Control Cards face up, turn up that many plus 1."
 
   - label: AI-Planned Economy
     type: Permanent
