@@ -431,7 +431,8 @@
               "value": [
                 "4b50d74b-1a5f-468d-a8a9-1b13c72709d6",
                 "f55edf0c-46f6-439a-976f-bd36491f3460",
-                "cf7b7a88-15c9-4521-bd1d-5b5606b71d08"
+                "cf7b7a88-15c9-4521-bd1d-5b5606b71d08",
+                "a49fc6bd-8a62-481d-a04b-c40a6d704cac"
               ]
             }
           }
@@ -779,7 +780,7 @@
     "cardTypes": {
       "type-264d8c35-2903-4f04-bf42-e0ab7a34cfb9": {
         "label": "Business Expenses",
-        "effect": "Pay 3 Paperclip Tokens each turn."
+        "effect": "Pay 2 Paperclip Tokens each turn."
       }
     },
     "faceTemplate": {
@@ -941,7 +942,7 @@
     "y": 158.59,
     "z": 1309,
     "type": "counter",
-    "counterValue": 2,
+    "counterValue": 0,
     "dragging": null,
     "label": "Owned Actions",
     "draggingType": null
