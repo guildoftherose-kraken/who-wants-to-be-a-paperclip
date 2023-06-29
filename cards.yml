@@ -18,7 +18,7 @@ Level 1 Challenges:
     effect: Reveal and resolve one additional Challenge card next turn.
 
   - label: Liquidity Crisis
-    effect: You lose 10 Paperclips. (If you don't have 10 Paperclips you lose all your Paperclips instead.) At the end of the turn, you gain 10 Paperclips.
+    effect: You lose 10 Paperclips. (If you don't have 10 Paperclips you lose all your Paperclips instead.) At the end of the Game Action phase next turn, you gain 10 Paperclips.
 
 Level 2 Challenges:
   - label: Industrial Espionage
@@ -46,7 +46,7 @@ Level 2 Challenges:
     effect: Lose 1 Action. If you have none then you lose 4 Paperclips. (If you don't have 4 Paperclips you lose all your Paperclips instead.)
 
   - label: Spoiler Attack
-    effect: Choose one card in your Owned Cards Zone this turn and turn it face down. Treat it as though it does not exist this turn. Turn it face up at the end of the turn.
+    effect: Choose one card in your Owned Cards Zone this turn and turn it face down. Treat it as though it does not exist this turn. Turn it face up at the end of the Game Action phase next turn.
 
   - label: Stock Market Downturn
     effect: When you activate a card in your Owned Cards Zone this turn, you must pay 1 Paperclip in addition to paying the effect's normal cost. (You can't activate it if you can't pay this extra cost)
@@ -68,7 +68,7 @@ Level 3 Challenges:
     effect: Pay 3 Favor and 3 Science. If you can't, you lose 12 Paperclips. (If you don't have 12 Paperclips you lose all your Paperclips instead.)
 
   - label: Chaos Virus
-    effect: You may pay 6 Science. If you do not, at the end of the turn you must turn X Control Cards face down, where X is half of the number of Control Cards that were turned face up this turn, rounded down.
+    effect: You may pay 6 Science. If you do not, at the end of the Game Action phase next turn you must turn X Control Cards face down, where X is half of the number of Control Cards that were turned face up that turn, rounded down.
 
   - label: Political Opposition
     effect: You may pay 6 Favor. If you do not, when you play a card from your hand this turn, you must discard a card in addition to paying the card's cost. (You can't play it if you can't pay this extra cost)
@@ -225,7 +225,7 @@ Level 2 Opportunities:
   - label: Technology Community Alignment
     type: Immediate
     cost: "Cost: 2 Actions, 2 Paperclips, and 1 Favor"
-    effect: "At the end of the turn, turn over X Control Cards, where X is the number of Control Cards that were turned over this turn."
+    effect: "At the end of the Game Actions phase, turn over X Control Cards, where X is the number of Control Cards that were turned over this turn."
 
   - label: Mind-Machine Interface
     type: Permanent

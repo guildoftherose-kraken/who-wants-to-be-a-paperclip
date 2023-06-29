@@ -1,7 +1,10 @@
 # Who wants to be a paperclip?
-### *Make as many paperclips as you can without becoming one yourself!*
 
-You are the CEO of paperclips.ai, a new startup that is revolutionizing the paperclip manufacturing business with AI. Your business plan is fool-proof: Your company uses the state-of-the-art BlackBoxx™ AI platform, which provides regular software updates that continually improve the efficiency of your paperclip production processes! Infinite returns, here we come! What could possibly go wrong?
+### _Make as many paperclips as you can without becoming one yourself!_
+
+You are the CEO of paperclips.ai, a new startup that is revolutionizing the paperclip manufacturing business with AI. Your business plan is
+fool-proof: Your company uses the state-of-the-art BlackBoxx™ AI platform, which provides regular software updates that continually improve
+the efficiency of your paperclip production processes! Infinite returns, here we come! What could possibly go wrong?
 
 ### How to use
 
